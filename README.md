@@ -49,25 +49,24 @@ This repository documents my weekly progress, deep dives into Selenium, and prac
 selenium-automation/
 │
 ├── src/
-│ ├── main/
-│ │ └── java/
-│ │ └── com/
-│ │ └── satyabrata/
-│ │ ├── pages/ # Page Object classes
-│ │ ├── components/ # Abstract components & utilities
-│ └── test/
-│ └── java/
-│ └── com/
-│ └── satyabrata/
-│ └── tests/ # Test classes
-│ └── resources/ # Test data, configs
+│   ├── main/
+│   │   └── java/
+│   │       └── com/
+│   │           └── yourpackage/
+│   │               ├── pages/         # Page Object classes
+│   │               ├── components/    # Abstract components & utilities
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── yourpackage/
+│                   └── tests/         # Test classes
+│       └── resources/                 # Test data, configs
 │
-├── pom.xml # Maven build file
-├── testng.xml # TestNG suite configuration
-├── extent-config.xml # Extent Reports config
-├── README.md # Project documentation
+├── pom.xml                            # Maven build file
+├── testng.xml                         # TestNG suite configuration
+├── extent-config.xml                  # Extent Reports config
+├── README.md                          # Project documentation
 └── .gitignore
-
 ---
 
 ## 🚦 Getting Started
