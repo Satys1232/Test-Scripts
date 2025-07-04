@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="SatyaSeleniumSuite.SeleniumFrameworkDesigns.test_components.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="SubmitOrderTest(failed)" verbose="0">
+    <classes>
+      <class name="SatyasSeleniumSuite.SeleniumFrameworkDesigns.e2e.StandAloneJsonImplemented">
+        <methods>
+          <include name="close"/>
+          <include name="submitOrder" invocation-numbers="0 1"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- SatyasSeleniumSuite.SeleniumFrameworkDesigns.e2e.StandAloneJsonImplemented -->
+    </classes>
+  </test> <!-- SubmitOrderTest(failed) -->
+  <test thread-count="5" name="ErrorValidationTest(failed)" verbose="0">
+    <classes>
+      <class name="SatyasSeleniumSuite.SeleniumFrameworkDesigns.e2e.ErrorValidation">
+        <methods>
+          <include name="close"/>
+          <include name="launchApplication"/>
+          <include name="loginAndvalidateError"/>
+          <include name="productErrorValidation"/>
+        </methods>
+      </class> <!-- SatyasSeleniumSuite.SeleniumFrameworkDesigns.e2e.ErrorValidation -->
+    </classes>
+  </test> <!-- ErrorValidationTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
