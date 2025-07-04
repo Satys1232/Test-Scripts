@@ -68,8 +68,6 @@ selenium-automation/
 ├── README.md # Project documentation
 └── .gitignore
 
-text
-
 ---
 
 ## 🚦 Getting Started
