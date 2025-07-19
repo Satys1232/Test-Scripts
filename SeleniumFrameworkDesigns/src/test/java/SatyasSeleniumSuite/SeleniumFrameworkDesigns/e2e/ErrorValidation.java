@@ -1,9 +1,7 @@
 package SatyasSeleniumSuite.SeleniumFrameworkDesigns.e2e;
 
 import java.io.IOException;
-import java.util.List;
 
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -29,7 +27,7 @@ public class ErrorValidation extends BaseTest {
 		String productName = "ZARA COAT 3"; // 👗 Product to buy
 		ProductCatalogue catalogue = landingPage.login("satyabratapatra299@gmail.com", "Satya@123"); // 📝 Enter // //
 																										// Credentials
-		List<WebElement> productList = catalogue.getProductList(); // 📦 Get Product List
+         catalogue.getProductList(); // 📦 Get Product List
 		catalogue.addToCart(productName); // ➕ Add to Cart
 		CartPage cart = catalogue.clickOnCartIcon(); // 🛒 Open Cart
 		boolean isPresent = cart.isProductPresent(productName); // 🔍 Check Product in Cart

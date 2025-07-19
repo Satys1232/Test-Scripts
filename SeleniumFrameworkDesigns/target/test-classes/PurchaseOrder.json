@@ -1,4 +1,4 @@
-[
+/*[
 	{
 	 "email" : "satyabratapatra299@gmail.com",
 	 "password" : "Satya@123",
@@ -11,6 +11,30 @@
 		"productName" : "ADIDAS ORIGINAL"
 	}
 	
-	
-	
+]*/
+
+
+[
+  {
+    "firstName": "Satya",
+    "lastName": "Patra",
+    "email": "satyabratapatra299@gmail.com",
+    "mobile": "9876543210",
+    "occupation": "Engineer",
+    "gender": "Male",
+    "password": "Satya@123",
+    "confirmPassword": "Satya@123",
+    "productName": "ZARA COAT 3"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "23057045@kiit.ac.in",
+    "mobile": "9123456789",
+    "occupation": "Student",
+    "gender": "Female",
+    "password": "Satya#123",
+    "confirmPassword": "Satya#123",
+    "productName": "ADIDAS ORIGINAL"
+  }
 ]
