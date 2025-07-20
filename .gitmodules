@@ -1,0 +1,3 @@
+[submodule "api-automation-agent"]
+	path = api-automation-agent
+	url = https://github.com/TestCraft-App/api-automation-agent.git
