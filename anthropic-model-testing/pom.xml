@@ -20,7 +20,12 @@
       <artifactId>selenium-java</artifactId>
       <version>4.22.0</version>
     </dependency>
-    
+    <!-- https://mvnrepository.com/artifact/com.epam.healenium/healenium-web -->
+<dependency>
+    <groupId>com.epam.healenium</groupId>
+    <artifactId>healenium-web</artifactId>
+    <version>3.5.6</version>
+</dependency>
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
